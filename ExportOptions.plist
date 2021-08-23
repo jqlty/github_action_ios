@@ -9,7 +9,7 @@
 	<key>provisioningProfiles</key>
 	<dict>
 		<key>com.thinkyeah.GithubAction</key>
-		<string>GithubActionTestApp</string>
+		<string>GithubActionTestApp_Dist</string>
 	</dict>
 	<key>signingCertificate</key>
 	<string>Apple Distribution</string>
