@@ -1,0 +1,160 @@
+2021-08-23 09:50:18 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7ffc404ae130; archive(resolved)='<IDEArchive: 0x7ffc7079e480>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ffc505604f0>', team(resolved)='<IDEProvisioningBasicTeam: 0x7ffc506f15f0; teamID='KHV6JJH7M8', teamName='(null)'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7ffc404ae130; archive = '<IDEArchive: 0x7ffc7079e480>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ffc505604f0>', team='<IDEProvisioningBasicTeam: 0x7ffc506f15f0; teamID='KHV6JJH7M8', teamName='(null)'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7ffc404acf10; archive = '<IDEArchive: 0x7ffc7079e480>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ffc505604f0>', team='<IDEProvisioningBasicTeam: 0x7ffc506f15f0; teamID='KHV6JJH7M8', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7ffc404900d0; archive = '<IDEArchive: 0x7ffc7079e480>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ffc505604f0>', team='<IDEProvisioningBasicTeam: 0x7ffc506f15f0; teamID='KHV6JJH7M8', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7ffc4071e0d0; archive = '<IDEArchive: 0x7ffc7079e480>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ffc505604f0>', team='<IDEProvisioningBasicTeam: 0x7ffc506f15f0; teamID='KHV6JJH7M8', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7ffc4075ffe0; archive = '<IDEArchive: 0x7ffc7079e480>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ffc505604f0>', team='<IDEProvisioningBasicTeam: 0x7ffc506f15f0; teamID='KHV6JJH7M8', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7ffc40759c90; archive = '<IDEArchive: 0x7ffc7079e480>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ffc505604f0>', team='<IDEProvisioningBasicTeam: 0x7ffc506f15f0; teamID='KHV6JJH7M8', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7ffc40753bf0; archive = '<IDEArchive: 0x7ffc7079e480>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ffc505604f0>', team='<IDEProvisioningBasicTeam: 0x7ffc506f15f0; teamID='KHV6JJH7M8', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7ffc40752650; archive = '<IDEArchive: 0x7ffc7079e480>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ffc505604f0>', team='<IDEProvisioningBasicTeam: 0x7ffc506f15f0; teamID='KHV6JJH7M8', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7ffc50577910; archive = '<IDEArchive: 0x7ffc7079e480>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ffc505604f0>', team='<IDEProvisioningBasicTeam: 0x7ffc506f15f0; teamID='KHV6JJH7M8', teamName='(null)'>'>
+	<IDEDistributionContext: 0x7ffc707aa040; archive = '<IDEArchive: 0x7ffc7079e480>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7ffc505604f0>', team='(null)'>
+	<IDEDistributionContext: 0x7ffc70776e20; archive = '<IDEArchive: 0x7ffc7079e480>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7ffc404ae130>
+2021-08-23 09:50:18 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2021-08-23 09:50:18 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2021-08-23 09:50:18 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/thinkyeah/Workspace/temp/github_action_ios/GithubAction/Applications/GithubAction.xcarchive/Products/Applications/GithubAction.app' '/var/folders/p4/wf0w2bfn281c461kqx_4f6d00000gn/T/XcodeDistPipeline.~~~UTaxjI/Root/Payload/GithubAction.app'
+2021-08-23 09:50:18 +0000  >>> Copying /Users/thinkyeah/Workspace/temp/github_action_ios/GithubAction/Applications/GithubAction.xcarchive/Products/Applications/GithubAction.app 
+2021-08-23 09:50:18 +0000  copying file ./_CodeSignature/CodeResources ... 
+2021-08-23 09:50:18 +0000  3895 bytes for ./_CodeSignature/CodeResources
+2021-08-23 09:50:18 +0000  copying file ./GithubAction ... 
+2021-08-23 09:50:18 +0000  188448 bytes for ./GithubAction
+2021-08-23 09:50:18 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2021-08-23 09:50:18 +0000  936 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2021-08-23 09:50:18 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2021-08-23 09:50:18 +0000  1197 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2021-08-23 09:50:18 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2021-08-23 09:50:18 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2021-08-23 09:50:18 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2021-08-23 09:50:18 +0000  1197 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2021-08-23 09:50:18 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2021-08-23 09:50:18 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2021-08-23 09:50:18 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2021-08-23 09:50:18 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2021-08-23 09:50:18 +0000  copying file ./embedded.mobileprovision ... 
+2021-08-23 09:50:18 +0000  31264 bytes for ./embedded.mobileprovision
+2021-08-23 09:50:18 +0000  copying file ./Info.plist ... 
+2021-08-23 09:50:18 +0000  1475 bytes for ./Info.plist
+2021-08-23 09:50:18 +0000  copying file ./PkgInfo ... 
+2021-08-23 09:50:18 +0000  8 bytes for ./PkgInfo
+2021-08-23 09:50:18 +0000 [MT] /usr/bin/ditto exited with 0
+2021-08-23 09:50:18 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2021-08-23 09:50:18 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2021-08-23 09:50:18 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-08-23 09:50:18 +0000 [MT] Processing step: IDEDistributionItemRemovalStep
+2021-08-23 09:50:18 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2021-08-23 09:50:18 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2021-08-23 09:50:18 +0000 [MT] Processing step: IDEDistributionCompileBitcodeStep
+2021-08-23 09:50:18 +0000 [MT] Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2021-08-23 09:50:18 +0000 [MT] Processing step: IDEDistributionCodeSlimmingStep
+2021-08-23 09:50:18 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/p4/wf0w2bfn281c461kqx_4f6d00000gn/T/XcodeDistPipeline.~~~UTaxjI/Root/Payload/GithubAction.app/GithubAction' '-l' '-o' '/var/folders/p4/wf0w2bfn281c461kqx_4f6d00000gn/T/XcodeDistPipeline.~~~UTaxjI/Root/Payload/GithubAction.app/GithubAction'
+2021-08-23 09:50:18 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-08-23 09:50:18 +0000 [MT] Processing step: IDEDistributionCopyBCSymbolMapsStep
+2021-08-23 09:50:18 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/thinkyeah/Workspace/temp/github_action_ios/GithubAction/Applications/GithubAction.xcarchive/BCSymbolMaps/8190E140-F305-34AD-8F90-A92CD4845FA5.bcsymbolmap' '/var/folders/p4/wf0w2bfn281c461kqx_4f6d00000gn/T/XcodeDistPipeline.~~~UTaxjI/Root/BCSymbolMaps/8190E140-F305-34AD-8F90-A92CD4845FA5.bcsymbolmap'
+2021-08-23 09:50:18 +0000  >>> Copying /Users/thinkyeah/Workspace/temp/github_action_ios/GithubAction/Applications/GithubAction.xcarchive/BCSymbolMaps/8190E140-F305-34AD-8F90-A92CD4845FA5.bcsymbolmap 
+2021-08-23 09:50:18 +0000  copying file ./8190E140-F305-34AD-8F90-A92CD4845FA5.bcsymbolmap ... 
+2021-08-23 09:50:18 +0000  7075 bytes for ./8190E140-F305-34AD-8F90-A92CD4845FA5.bcsymbolmap
+2021-08-23 09:50:18 +0000 [MT] /usr/bin/ditto exited with 0
+2021-08-23 09:50:18 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2021-08-23 09:50:18 +0000 [MT] Excluding symbols for GithubAction.app
+2021-08-23 09:50:18 +0000 [MT] Processing step: IDEDistributionCopyAppleProvidedContentStep
+2021-08-23 09:50:18 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2021-08-23 09:50:18 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2021-08-23 09:50:18 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2021-08-23 09:50:18 +0000 [MT] Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/p4/wf0w2bfn281c461kqx_4f6d00000gn/T/XcodeDistPipeline.~~~UTaxjI/Root/Payload/GithubAction.app/GithubAction' '-verify_arch' 'arm64e'
+2021-08-23 09:50:18 +0000 [MT] /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-08-23 09:50:18 +0000 [MT] Skipping architecture thinning for item "GithubAction" because arch "arm64e" wasn't found
+2021-08-23 09:50:18 +0000 [MT] Processing step: IDEDistributionODRStep
+2021-08-23 09:50:18 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2021-08-23 09:50:18 +0000 [MT] Running /usr/bin/xattr '-crs' '/var/folders/p4/wf0w2bfn281c461kqx_4f6d00000gn/T/XcodeDistPipeline.~~~UTaxjI/Root/Payload/GithubAction.app'
+2021-08-23 09:50:19 +0000 [MT] /usr/bin/xattr exited with 0
+2021-08-23 09:50:19 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2021-08-23 09:50:19 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7ffc3051cdf0; bundleID='com.thinkyeah.GithubAction', path='<DVTFilePath:0x7ffc7075aaa0:'/Users/thinkyeah/Workspace/temp/github_action_ios/GithubAction/Applications/GithubAction.xcarchive/Products/Applications/GithubAction.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ffc4073e570; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ffc40725a30; name='Apple Development: Think Yeah (UA3L5TB732)', hash='3D080A3AA3C119503A2AE5A70C960E073D43CF23', serialNumber='<DVTSigningCertificateSerialNumber: 0x7ffc40763550>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-11-25 10:20:46 +0000''>', entitlements='{
+    "application-identifier" = "KHV6JJH7M8.com.thinkyeah.GithubAction";
+    "com.apple.developer.team-identifier" = KHV6JJH7M8;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "KHV6JJH7M8.com.thinkyeah.GithubAction"
+    );
+}', teamID='KHV6JJH7M8', identifier='com.thinkyeah.GithubAction', executablePath='<DVTFilePath:0x7ffc707ea110:'/Users/thinkyeah/Workspace/temp/github_action_ios/GithubAction/Applications/GithubAction.xcarchive/Products/Applications/GithubAction.app/GithubAction'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "KHV6JJH7M8.com.thinkyeah.GithubAction";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = KHV6JJH7M8;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "KHV6JJH7M8.com.thinkyeah.GithubAction"
+    );
+}
+2021-08-23 09:50:19 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7ffc3051cdf0; bundleID='com.thinkyeah.GithubAction', path='<DVTFilePath:0x7ffc7075aaa0:'/Users/thinkyeah/Workspace/temp/github_action_ios/GithubAction/Applications/GithubAction.xcarchive/Products/Applications/GithubAction.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ffc4073e570; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ffc40766ea0; name='Apple Development: Think Yeah (UA3L5TB732)', hash='3D080A3AA3C119503A2AE5A70C960E073D43CF23', serialNumber='<DVTSigningCertificateSerialNumber: 0x7ffc406f53c0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-11-25 10:20:46 +0000''>', entitlements='{
+    "application-identifier" = "KHV6JJH7M8.com.thinkyeah.GithubAction";
+    "com.apple.developer.team-identifier" = KHV6JJH7M8;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "KHV6JJH7M8.com.thinkyeah.GithubAction"
+    );
+}', teamID='KHV6JJH7M8', identifier='com.thinkyeah.GithubAction', executablePath='<DVTFilePath:0x7ffc707ea110:'/Users/thinkyeah/Workspace/temp/github_action_ios/GithubAction/Applications/GithubAction.xcarchive/Products/Applications/GithubAction.app/GithubAction'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "KHV6JJH7M8.com.thinkyeah.GithubAction";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = KHV6JJH7M8;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "KHV6JJH7M8.com.thinkyeah.GithubAction"
+    );
+}
+2021-08-23 09:50:19 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7ffc3051cdf0; bundleID='com.thinkyeah.GithubAction', path='<DVTFilePath:0x7ffc7075aaa0:'/Users/thinkyeah/Workspace/temp/github_action_ios/GithubAction/Applications/GithubAction.xcarchive/Products/Applications/GithubAction.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7ffc4073e570; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7ffc4076ed50; name='Apple Development: Think Yeah (UA3L5TB732)', hash='3D080A3AA3C119503A2AE5A70C960E073D43CF23', serialNumber='<DVTSigningCertificateSerialNumber: 0x7ffc4076ba30>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2020-11-25 10:20:46 +0000''>', entitlements='{
+    "application-identifier" = "KHV6JJH7M8.com.thinkyeah.GithubAction";
+    "com.apple.developer.team-identifier" = KHV6JJH7M8;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "KHV6JJH7M8.com.thinkyeah.GithubAction"
+    );
+}', teamID='KHV6JJH7M8', identifier='com.thinkyeah.GithubAction', executablePath='<DVTFilePath:0x7ffc707ea110:'/Users/thinkyeah/Workspace/temp/github_action_ios/GithubAction/Applications/GithubAction.xcarchive/Products/Applications/GithubAction.app/GithubAction'>', hardenedRuntime='0'>'> to: /var/folders/p4/wf0w2bfn281c461kqx_4f6d00000gn/T/XcodeDistPipeline.~~~UTaxjI/entitlements~~~ygMEoE
+2021-08-23 09:50:19 +0000 [MT] Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DDB1FDC48EC986FAFB0779E9279B7B7389C87878' '--entitlements' '/var/folders/p4/wf0w2bfn281c461kqx_4f6d00000gn/T/XcodeDistPipeline.~~~UTaxjI/entitlements~~~ygMEoE' '--preserve-metadata=identifier,flags,runtime' '/var/folders/p4/wf0w2bfn281c461kqx_4f6d00000gn/T/XcodeDistPipeline.~~~UTaxjI/Root/Payload/GithubAction.app'
+2021-08-23 09:50:19 +0000  /var/folders/p4/wf0w2bfn281c461kqx_4f6d00000gn/T/XcodeDistPipeline.~~~UTaxjI/Root/Payload/GithubAction.app: signed app bundle with Mach-O thin (arm64) [com.thinkyeah.GithubAction]
+2021-08-23 09:50:19 +0000 [MT] /usr/bin/codesign exited with 0
+2021-08-23 09:50:19 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2021-08-23 09:50:19 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-08-23 09:50:19 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2021-08-23 09:50:19 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/p4/wf0w2bfn281c461kqx_4f6d00000gn/T/XcodeDistPipeline.~~~UTaxjI/Root' '/var/folders/p4/wf0w2bfn281c461kqx_4f6d00000gn/T/XcodeDistPipeline.~~~UTaxjI/Packages/GithubAction.ipa'
+2021-08-23 09:50:19 +0000  >>> Copying /var/folders/p4/wf0w2bfn281c461kqx_4f6d00000gn/T/XcodeDistPipeline.~~~UTaxjI/Root 
+2021-08-23 09:50:19 +0000  copying file ./BCSymbolMaps/8190E140-F305-34AD-8F90-A92CD4845FA5.bcsymbolmap ... 
+2021-08-23 09:50:19 +0000  7075 bytes for ./BCSymbolMaps/8190E140-F305-34AD-8F90-A92CD4845FA5.bcsymbolmap
+2021-08-23 09:50:19 +0000  copying file ./Payload/GithubAction.app/_CodeSignature/CodeResources ... 
+2021-08-23 09:50:19 +0000  3895 bytes for ./Payload/GithubAction.app/_CodeSignature/CodeResources
+2021-08-23 09:50:19 +0000  copying file ./Payload/GithubAction.app/GithubAction ... 
+2021-08-23 09:50:19 +0000  141648 bytes for ./Payload/GithubAction.app/GithubAction
+2021-08-23 09:50:19 +0000  copying file ./Payload/GithubAction.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2021-08-23 09:50:19 +0000  936 bytes for ./Payload/GithubAction.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/GithubAction.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2021-08-23 09:50:19 +0000  1197 bytes for ./Payload/GithubAction.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/GithubAction.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2021-08-23 09:50:19 +0000  258 bytes for ./Payload/GithubAction.app/Base.lproj/Main.storyboardc/Info.plist
+2021-08-23 09:50:19 +0000  copying file ./Payload/GithubAction.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2021-08-23 09:50:19 +0000  1197 bytes for ./Payload/GithubAction.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/GithubAction.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2021-08-23 09:50:19 +0000  896 bytes for ./Payload/GithubAction.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/GithubAction.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/GithubAction.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2021-08-23 09:50:19 +0000  copying file ./Payload/GithubAction.app/embedded.mobileprovision ... 
+2021-08-23 09:50:19 +0000  11886 bytes for ./Payload/GithubAction.app/embedded.mobileprovision
+2021-08-23 09:50:19 +0000  copying file ./Payload/GithubAction.app/Info.plist ... 
+2021-08-23 09:50:19 +0000  1475 bytes for ./Payload/GithubAction.app/Info.plist
+copying file ./Payload/GithubAction.app/PkgInfo ... 
+8 bytes for ./Payload/GithubAction.app/PkgInfo
+2021-08-23 09:50:19 +0000 [MT] /usr/bin/ditto exited with 0
+2021-08-23 09:50:19 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2021-08-23 09:50:19 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2021-08-23 09:50:19 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2021-08-23 09:50:19 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7ffc404b34b0:'/var/folders/p4/wf0w2bfn281c461kqx_4f6d00000gn/T/XcodeDistPipeline.~~~UTaxjI/Root/Payload/GithubAction.app'>
+2021-08-23 09:50:19 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
+2021-08-23 09:50:19 +0000 [MT] Skipping step: IDEDistributionCreateManifestStep because it said so
