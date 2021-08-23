@@ -18,7 +18,7 @@ jobs:
       #     swift package init
       #     swift package generate-xcodeproj
       - name: archive
-        run: xcodebuild archive -project ../GithubAction.xcodeproj -scheme GithubAction -configuration release -archivePath ../Applications/GithubAction.xcarchive
+        run: xcodebuild archive -project ./GithubAction/GithubAction.xcodeproj -scheme GithubAction -configuration release -archivePath ./output/GithubAction.xcarchive
       - name: export
-        run: xcodebuild -exportArchive -archivePath ../Applications/GithubAction.xcarchive -exportPath ../Applications -exportOptionsPlist ../Applications/ExportOptions.plist
+        run: xcodebuild -exportArchive -archivePath ./output/GithubAction.xcarchive -exportPath ./output -exportOptionsPlist ./output/ExportOptions.plist
         # run: swift build -v
