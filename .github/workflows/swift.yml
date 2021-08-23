@@ -11,12 +11,14 @@ jobs:
     runs-on: macos-11
     steps:
       - uses: actions/checkout@master
-      - name: prepare
-        run: |
-          swift package init
-          swift package generate-xcodeproj
+      - name: print working directory
+        run: pwd
+      # - name: prepare
+      #   run: |
+      #     swift package init
+      #     swift package generate-xcodeproj
       - name: archive
-        run: xcodebuild archive -project GithubAction.xcodeproj -scheme GithubAction -configuration release -archivePath ./Applications/GithubAction.xcarchive
+        run: xcodebuild archive -project ../GithubAction.xcodeproj -scheme GithubAction -configuration release -archivePath ../Applications/GithubAction.xcarchive
       - name: export
-        run: xcodebuild -exportArchive -archivePath ./Applications/GithubAction.xcarchive -exportPath ./Applications -exportOptionsPlist ./Applications/ExportOptions.plist
+        run: xcodebuild -exportArchive -archivePath ../Applications/GithubAction.xcarchive -exportPath ../Applications -exportOptionsPlist ../Applications/ExportOptions.plist
         # run: swift build -v
